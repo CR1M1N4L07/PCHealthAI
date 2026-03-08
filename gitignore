@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# App user data (contains API key — never commit this)
+config.json
+
+# Logs
+*.log
+logs/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# PyInstaller temp
+*.manifest
